@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_text_items",
+  "info": {
+    "displayName": "Text Item",
+    "icon": "bulletList",
+    "description": "A simple text item for repeatable lists"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

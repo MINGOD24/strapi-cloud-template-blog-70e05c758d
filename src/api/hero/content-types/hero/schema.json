@@ -1,37 +1,39 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "heroes",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About",
-    "description": "About the director - Dalia Pollak"
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero",
+    "description": "Hero section content for the landing page"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "title": {
+    "subtitle": {
       "type": "string"
     },
-    "bio": {
+    "description": {
       "type": "text"
     },
-    "image": {
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "backgroundImage": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": ["images"]
-    },
-    "achievements": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.text-item"
     }
   }
 }
+

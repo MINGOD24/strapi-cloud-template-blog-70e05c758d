@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projections",
+  "info": {
+    "singularName": "projection",
+    "pluralName": "projections",
+    "displayName": "Projection",
+    "description": "Strategic projections and goals"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "year": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
+
