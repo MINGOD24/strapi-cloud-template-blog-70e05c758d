@@ -1,6 +1,5 @@
-'use strict';
+"use strict";
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::contact-info.contact-info');
-
+module.exports = createCoreController("api::contact-info.contact-info");

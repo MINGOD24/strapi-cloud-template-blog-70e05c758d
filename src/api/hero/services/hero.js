@@ -1,6 +1,5 @@
-'use strict';
+"use strict";
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::hero.hero');
-
+module.exports = createCoreService("api::hero.hero");

@@ -27,12 +27,18 @@
     "title": "Executive Director",
     "bio": "Executive director of Jewish Heritage Education and Advocacy Center. Co-founder & President of the Jewish Museum of Chile Foundation. Daughter of a Romanian-born Holocaust survivor, deeply committed to memory, education, and community building.",
     "achievements": [
-      { "text": "Executive director of Jewish Heritage Education and Advocacy Center" },
+      {
+        "text": "Executive director of Jewish Heritage Education and Advocacy Center"
+      },
       { "text": "Co-founder & President, Jewish Museum of Chile Foundation" },
-      { "text": "Resides in the U.S. under an O-1 visa for extraordinary ability in education" },
+      {
+        "text": "Resides in the U.S. under an O-1 visa for extraordinary ability in education"
+      },
       { "text": "A leading voice in Jewish education across Latin America" },
       { "text": "Established partnerships with ADL and USC Shoah Foundation" },
-      { "text": "Founder of Red LAJD (Latin American Network for Holocaust Educators)" },
+      {
+        "text": "Founder of Red LAJD (Latin American Network for Holocaust Educators)"
+      },
       { "text": "Serves on the Advisory Council of JCHL at Brandeis Center" },
       { "text": "Co-founder of ICOM International Council of Museums network" }
     ]

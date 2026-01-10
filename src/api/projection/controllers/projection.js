@@ -1,6 +1,5 @@
-'use strict';
+"use strict";
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::projection.projection');
-
+module.exports = createCoreController("api::projection.projection");
