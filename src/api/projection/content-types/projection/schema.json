@@ -25,6 +25,9 @@
     "order": {
       "type": "integer",
       "default": 0
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
