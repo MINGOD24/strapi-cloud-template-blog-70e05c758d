@@ -34,6 +34,9 @@
     "order": {
       "type": "integer",
       "default": 0
+    },
+    "learnMoreUrl": {
+      "type": "string"
     }
   }
 }
